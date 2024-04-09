@@ -8,12 +8,6 @@ body {
   font-family: onest;
 }
 
-@media (max-width: 480px) {
-  .topnav {
-    left: 135px;
-  }
-}
-
 .topnav {
   background-color: #ffffff;
   position: relative;
