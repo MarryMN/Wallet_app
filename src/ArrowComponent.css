@@ -8,16 +8,20 @@ body {
   font-family: onest;
 }
 
+@media (max-width: 480px) {
+  .topnav {
+  left:135px;
+  }
+}
 .topnav {
   background-color: #ffffff;
   position: relative;
   top: -1190px;
-
+  left: 135px;
   z-index: 1;
   cursor: pointer;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-
 }
 
 .topnav h1 {
